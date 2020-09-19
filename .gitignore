@@ -30,6 +30,7 @@ yarn-debug.log*
 yarn-error.log*
 .DS_Store
 .directory
+.gradle
 
 coverage
 .nyc_output
@@ -51,3 +52,5 @@ docs
 #Code quality tools
 .scannerwork
 sonar-project.properties
+# Ignore Gradle build output directory
+build
