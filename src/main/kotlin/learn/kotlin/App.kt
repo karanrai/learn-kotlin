@@ -16,11 +16,11 @@ fun main() {
 
     val server = app.asServer(Netty(9000)).start()
 
-    val client = ApacheClient()
+    // val client = ApacheClient()
 
-    val request = Request(Method.GET, "http://localhost:9000").query("name", "John Doe")
+    // val request = Request(Method.GET, "http://localhost:9000").query("name", "John Doe")
 
-    println(client(request))
+    // println(client(request))
 
-    server.stop()
+    // server.stop()
 }
