@@ -52,5 +52,6 @@ docs
 #Code quality tools
 .scannerwork
 sonar-project.properties
+
 # Ignore Gradle build output directory
 build
